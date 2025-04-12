@@ -1,6 +1,5 @@
 from behave import given, when, then
 
-
 @given(u'jag har sedan tidigare lagt till vänner i "Mina vänner"')
 def step_given_start(context):
     context.page.goto(context.base_url)
