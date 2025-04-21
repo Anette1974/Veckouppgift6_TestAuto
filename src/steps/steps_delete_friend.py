@@ -1,4 +1,4 @@
-
+from behave import given, when, then
 
 @when(u'jag klickar på knappen "Ta bort"')
 def step_button_delete(context):

@@ -5,7 +5,7 @@ def before_all(context):
     context.browser_type = context.playwright.chromium
     #context.browser = context.browser_type.launch(headless=True)
     #Alternative browser setting, browser visible during tests
-    context.browser = context.browser_type.launch(headless=False, slow_mo=500)
+    context.browser = context.browser_type.launch(headless=False, slow_mo=800)
 
 def before_scenario(context, scenario):
     context.page = context.browser.new_page()
